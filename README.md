@@ -1,7 +1,3 @@
----
-layout: default
----
-
 ## What is Lattice-based Cryptography?
 - [Post-quantum Cryptography: An Introduction (Shweta Agrawal)](http://www.cse.iitm.ac.in/~shwetaag/papers/PQC.pdf)
 - [Lattice-based Cryptography (Daniele Micciancio and Oded Regev)](https://cims.nyu.edu/~regev/papers/pqc.pdf)
