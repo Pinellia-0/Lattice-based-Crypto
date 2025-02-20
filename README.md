@@ -1,1 +1,94 @@
-"# Lattice-based-Crypto" 
+---
+layout: default
+---
+
+## What is Lattice-based Cryptography?
+- [Post-quantum Cryptography: An Introduction (Shweta Agrawal)](http://www.cse.iitm.ac.in/~shwetaag/papers/PQC.pdf)
+- [Lattice-based Cryptography (Daniele Micciancio and Oded Regev)](https://cims.nyu.edu/~regev/papers/pqc.pdf)
+- [Lattice Cryptography: Understanding Kyber (ML-KEM) and Dilithium (ML-DSA) (Vadim Lyubashevsky)](https://github.com/VadimLyubash/LatticeTutorial/blob/main/tutorial.pdf)
+- [Tutorial introduction to the security of lattice-based cryptosystems (Laarhoven et. al.)](https://eprint.iacr.org/2012/533.pdf)
+
+## Courses and online lectures
+- [Lattices, Learning with Errors and Post-Quantum Cryptography (Vinod Vaikuntanathan)](http://people.csail.mit.edu/vinodv/CS294/)
+- [Lattices Algorithms and Applications (Daniele Micciancio)](https://cseweb.ucsd.edu/classes/fa21/cse206A-a/)
+- [An Intensive Introduction to Cryptography (Boaz Barak)](https://intensecrypto.org/public/index.html)
+- [Lattices in Cryptography (Chris Peikert)](https://github.com/cpeikert/LatticesInCryptography)
+- [Lattices in Computer Science (Oded Regev)](https://cims.nyu.edu/~regev/teaching/lattices_fall_2009/index.html)
+- [BIU Winter School on Lattice-based Cryptography and Applications (Bar-Ilan University, 2012)](https://cyber.biu.ac.il/event/the-2nd-biu-winter-school/)
+- [Workshop on Mathematics of Lattices and Cybersecurity (Brown University, 2015)](https://icerm.brown.edu/topical_workshops/tw15-7-mlc/#lecturevideos)
+- [Spring School on Lattice-Based Cryptography (University of Oxford, 2017)](https://www.maths.ox.ac.uk/groups/cryptography/spring-school-lattice-based-cryptography)
+- [Lattices: Algorithms, Complexity, and Cryptography (Simons Institute, 2020)](https://simons.berkeley.edu/programs/lattices2020)
+- [Foundations and Applications of Lattice-based Cryptography (ICMS, 2022)](https://www.icms.org.uk/workshops/2022/foundations-and-applications-lattice-based-cryptography)
+
+## Surveys
+- [A Decade of Lattice Cryptography (Chris Peikert)](https://eprint.iacr.org/2015/939.pdf)
+- [Advances on quantum cryptanalysis of ideal lattices (Léo Ducas)](http://www.nieuwarchief.nl/serie5/pdf/naw5-2017-18-3-184.pdf)
+- [Lattice Attacks on NTRU and LWE: A History of Refinements (Martin Albrecht and Léo Ducas)](https://eprint.iacr.org/2021/799)
+
+## PhD theses
+- [Design and Implementation of Lattice-Based Cryptography (Tancrède Lepoint, 2014)](https://tlepoint.github.io/phd/lepoint-phd-thesis.pdf)
+- [On the Concrete Security of Lattice-Based Cryptography (Michael Walter, 2017)](https://escholarship.org/uc/item/5n51z56s)
+- [Efficient Lattice-Based Zero-Knowledge Proofs and Applications (Rafaël del Pino, 2018)](https://tel.archives-ouvertes.fr/tel-02445482/document)
+- [Gadgets and Gaussians in Lattice-Based Cryptography (Nicholas Genise, 2019)](https://escholarship.org/uc/item/8b40w7r8)
+- [On ideal lattices and the GGH13 multilinear map (Alice Pellet--Mary, 2019)](https://apelletm.pages.math.cnrs.fr/page-perso/documents/articles/PhD_thesis.pdf)
+- [Lattice-based Protocols for Privacy (Cecilia Boschini, 2020)](https://doc.rero.ch/record/328567/files/2020INFO002.pdf)
+- [Practice-Oriented Techniques in Lattice-Based Cryptography (Muhammed F. Esgin, 2020)](https://bridges.monash.edu/articles/thesis/Practice-Oriented_Techniques_in_Lattice-Based_Cryptography/12279728)
+- [Extended Security of Lattice-based Cryptography (Mélissa Rossi, 2020)](https://www.di.ens.fr/~mrossi/docs/thesis.pdf)
+- [Practical lattice-based cryptography over structured lattices (Sarah McCarthy, 2020)](https://pureadmin.qub.ac.uk/ws/portalfiles/portal/211831925/thesis.pdf)
+- [Efficiency and security aspects of lattice-based cryptography (Carl Bootland, 2021)](https://www.esat.kuleuven.be/cosic/publications/thesis-399.pdf)
+- [Post-Quantum Cryptography: Cryptanalysis and Implementation (Fernando Vidria, 2021)](https://fundamental.domains/2021virdiafphd.pdf)
+- [Efficient Implementation Techniques for Lattice-based Cryptosystems (Raymond K. Zhao, 2022)](https://bridges.monash.edu/articles/thesis/Efficient_Implementation_Techniques_for_Lattice-based_Cryptosystems/19224867)
+
+## Other resources
+- [Collection of resources and links maintained by Daniele Micciancio](https://cseweb.ucsd.edu/~daniele/LatticeLinks/index.html)
+- [Workshop on Lattices with Symmetry (University of California, Irvine, 2013)](https://www.math.uci.edu/~asilverb/Lattices/)
+- [Computational Challenges in the Theory of Lattices (Brown University, 2018)](https://icerm.brown.edu/programs/sp-s18/w4/)
+- [Mathematical Foundations of Asymmetric Cryptography (French Mathematical Society, 2019)](https://mathsofpkc.sciencesconf.org/resource/page/id/1)
+
+## Reading groups and seminars open to the public
+- [Monash Cybersecurity Seminars](https://www.monash.edu/it/ssc/cybersecurity/seminars)
+- [ENSL/CWI/RHUL Joint Online Cryptography Seminars](https://jcs.trusted-third-party.org/)
+
+## Lattice-based primitives selected by NIST for standardization
+
+| Name | Primitive | Description |
+| :----------- | :------- | :------- |
+| CRYSTALS-KYBER     | PKE & KEM         | [Official site](https://pq-crystals.org/kyber/)|
+| CRYSTALS-DILITHIUM | Digital signature | [Official site](https://pq-crystals.org/dilithium/)|
+| FALCON             | Digital signature | [Official site](https://falcon-sign.info/) |
+
+
+## Implementations of cryptographic primitives
+
+| Name | Language | Author |
+| :---------- | :--- | :------- |
+| [CRYSTALS-KYBER](https://github.com/pq-crystals/kyber) | C  | Official  |
+| [CRYSTALS-KYBER](https://github.com/symbolicsoft/kyber-k2so) | Go  | Symbolic Software  |
+| [CRYSTALS-KYBER](https://github.com/antontutoveanu/crystals-kyber-javascript) | JavaScript  | Anton Tutoveanu  |
+| [CRYSTALS-KYBER](https://github.com/bcgit/bc-java/tree/master/core/src/main/java/org/bouncycastle/pqc/crypto/crystals/kyber) | Java  | Legion of the Bouncy Castle Inc. |
+| [CRYSTALS-KYBER](https://github.com/bcgit/bc-csharp/tree/master/crypto/src/pqc/crypto/crystals/kyber) | C#  | Legion of the Bouncy Castle Inc. |
+| [CRYSTALS-KYBER](https://github.com/jack4818/kyber-py) | Python  | Giacomo Pope |
+| [CRYSTALS-DILITHIUM](https://github.com/pq-crystals/dilithium) | C  | Official |
+| [CRYSTALS-DILITHIUM](https://github.com/bcgit/bc-java/tree/master/core/src/main/java/org/bouncycastle/pqc/crypto/crystals/dilithium) | Java  | Legion of the Bouncy Castle Inc. |
+| [CRYSTALS-DILITHIUM](https://github.com/bcgit/bc-csharp/tree/master/crypto/src/pqc/crypto/crystals/dilithium) | C#  | Legion of the Bouncy Castle Inc. |
+| [CRYSTALS-DILITHIUM](https://github.com/jack4818/dilithium-py) | Python  | Giacomo Pope |
+| [FALCON](https://falcon-sign.info/impl/falcon.h.html) | C  | Official |
+| [FALCON](https://github.com/tprest/falcon.py) | Python  | Thomas Prest |
+| [FALCON](https://github.com/bcgit/bc-java/tree/master/core/src/main/java/org/bouncycastle/pqc/crypto/falcon) | Java  | Legion of the Bouncy Castle Inc. |
+| [FALCON](https://github.com/bcgit/bc-csharp/tree/master/crypto/src/pqc/crypto/falcon) | C#  | Legion of the Bouncy Castle Inc. |
+| [FRODO](https://github.com/Microsoft/PQCrypto-LWEKE) | C  | Official |
+| [FRODO](https://github.com/mariiatuzovska/frodo) | Go  | Mariia Tuzovska |
+| [FRODO](https://github.com/bcgit/bc-java/tree/master/core/src/main/java/org/bouncycastle/pqc/crypto/frodo) | Java  | Legion of the Bouncy Castle Inc. |
+| [FRODO](https://github.com/bcgit/bc-csharp/tree/master/crypto/src/pqc/crypto/frodo) | C#  | Legion of the Bouncy Castle Inc. |
+| [NTRU](https://github.com/prokls/ntrust-native) | Rust  | Lukas Prokop |
+| [NTRU](https://github.com/bcgit/bc-java/tree/master/core/src/main/java/org/bouncycastle/pqc/crypto/ntru) | Java  |  Legion of the Bouncy Castle Inc.  |
+| [NTRU](https://github.com/bcgit/bc-csharp/tree/master/crypto/src/pqc/crypto/ntru) | C#  |  Legion of the Bouncy Castle Inc.  |
+| [NTRU Prime](https://github.com/bcgit/bc-java/tree/master/core/src/main/java/org/bouncycastle/pqc/crypto/ntruprime) | Java  |  Legion of the Bouncy Castle Inc.  |
+| [NTRU Prime](https://github.com/bcgit/bc-csharp/tree/master/crypto/src/pqc/crypto/ntruprime) | C#  |  Legion of the Bouncy Castle Inc.  |
+| [SABER](https://github.com/lkiem/rusty_saber) | Rust  | Lukas Prokop & Lukas Kiem |
+| [SABER](https://github.com/bcgit/bc-java/tree/master/core/src/main/java/org/bouncycastle/pqc/crypto/saber) | Java  | Legion of the Bouncy Castle Inc. |
+| [SABER](https://github.com/bcgit/bc-csharp/tree/master/crypto/src/pqc/crypto/saber) | C#  | Legion of the Bouncy Castle Inc. |
+
+## Security estimation tools
+- [Lattice estimator](https://github.com/malb/lattice-estimator/)
+- [Leaky LWE estimator (Dachman-Soled et. al.)](https://github.com/lducas/leaky-LWE-Estimator)
